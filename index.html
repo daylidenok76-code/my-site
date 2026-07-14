@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Кофейня Сергея Дайлиденка: авторский кофе, свежая выпечка, портфолио напитков и форма обратной связи." />
+    <title>Daily Coffee — кофейня Сергея Дайлиденка</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Основная навигация">
+        <a class="logo" href="#hero" aria-label="Daily Coffee">
+          <span class="logo-mark">☕</span>
+          <span>Daily Coffee</span>
+        </a>
+        <div class="nav-links">
+          <a href="#about">О нас</a>
+          <a href="#portfolio">Портфолио</a>
+          <a href="#contact">Контакты</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="hero">
+        <div class="hero-content">
+          <p class="eyebrow">Кофейня Сергея Дайлиденка</p>
+          <h1>Кофе, который звучит как утро в стиле Apple.</h1>
+          <p class="hero-text">Минималистичное пространство, зерно локальной обжарки, десерты каждый день и внимательный сервис для тех, кто ценит детали.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#contact">Забронировать стол</a>
+            <a class="button secondary" href="#portfolio">Посмотреть меню</a>
+          </div>
+        </div>
+        <div class="hero-card" aria-label="Фирменный напиток">
+          <div class="cup">☕</div>
+          <p>Signature latte</p>
+          <strong>Карамель • овсяное молоко • эспрессо</strong>
+        </div>
+      </section>
+
+      <section class="section about" id="about">
+        <div>
+          <p class="eyebrow">Современный дизайн</p>
+          <h2>Лаконичная кофейня для встреч, работы и спокойных пауз.</h2>
+        </div>
+        <div class="features">
+          <article>
+            <span>01</span>
+            <h3>Авторский кофе</h3>
+            <p>Классика и сезонные напитки на зерне средней обжарки.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Свежая выпечка</h3>
+            <p>Круассаны, тарты и чизкейки из собственной кухни.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Уютный зал</h3>
+            <p>Мягкий свет, быстрый Wi‑Fi и розетки у каждого стола.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section portfolio" id="portfolio">
+        <p class="eyebrow">Портфолио</p>
+        <h2>Наши кофейные акценты</h2>
+        <div class="portfolio-grid">
+          <article class="portfolio-card">
+            <div class="visual espresso"></div>
+            <h3>Espresso Set</h3>
+            <p>Плотный эспрессо и мини-десерт для быстрого перерыва.</p>
+          </article>
+          <article class="portfolio-card">
+            <div class="visual latte"></div>
+            <h3>Cloud Latte</h3>
+            <p>Нежный латте с фирменным молочным рисунком.</p>
+          </article>
+          <article class="portfolio-card">
+            <div class="visual brew"></div>
+            <h3>Slow Brew</h3>
+            <p>Фильтр-кофе, V60 и кемекс для любителей чистого вкуса.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="contact-copy">
+          <p class="eyebrow">Форма обратной связи</p>
+          <h2>Напишите нам — ответим в течение дня.</h2>
+          <p>Оставьте заявку на бронь, мероприятие или дегустацию. Команда Сергея Дайлиденка свяжется с вами.</p>
+        </div>
+        <form class="contact-form" action="#" method="post">
+          <label>
+            Имя
+            <input type="text" name="name" placeholder="Ваше имя" required />
+          </label>
+          <label>
+            Телефон или email
+            <input type="text" name="contact" placeholder="+1 555 000 0000" required />
+          </label>
+          <label>
+            Сообщение
+            <textarea name="message" rows="5" placeholder="Расскажите, чем можем помочь"></textarea>
+          </label>
+          <button class="button primary" type="submit">Отправить</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
